@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">    
+        <h2><center>Signup</center></h2>
+        <div>
+            <form action="http://httpbin.com/post" method="post">
+                <input type="text" name="name" placeholder="User name">
+                <input type="email" name="software" placeholder="Email">
+                <div class="g-recaptcha" data-sitekey="6Lf-QssnAAAAANv1iMqjD-YXuTJVNJD91uFBV0Gq"></div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+http://127.0.0.1:5501/CAPTCHA.html
